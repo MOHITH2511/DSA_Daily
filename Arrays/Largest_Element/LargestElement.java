@@ -10,7 +10,7 @@ class Solution {
     }
 }
 
-public class Main {
+public class LargestElement {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] arr = {3, 5, 7, 2, 8};
