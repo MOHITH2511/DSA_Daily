@@ -13,7 +13,7 @@ class Solution {
 public class LargestElement {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = {3, 5, 7, 2, 8};
+        int[] arr = {3, 5, 7, 2, 8, 1};
         System.out.println("Largest Element: " + solution.largestElement(arr));
     }
 }

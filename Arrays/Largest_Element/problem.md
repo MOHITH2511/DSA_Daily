@@ -4,7 +4,7 @@
 Write a function to find the largest element in a given integer array.
 
 ## Example
-**Input:** [3, 5, 7, 2, 8]  
+**Input:** [3, 5, 7, 2, 8, 1]  
 **Output:** 8
 
 ## Approach
