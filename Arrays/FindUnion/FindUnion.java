@@ -1,7 +1,7 @@
 package Arrays.FindUnion;
 import java.util.*;
 class Solution {
-    public static ArrayList<Integer> findUnion(int[] a, int[] b) {
+    public ArrayList<Integer> findUnion(int[] a, int[] b) {
         Set<Integer> set = new HashSet<>();
         ArrayList<Integer> union = new ArrayList<>();
 
