@@ -1,4 +1,3 @@
-package Arrays.LargestElement;
 class Solution {
     public int largestElement(int[] arr) {
         int max = arr[0];
