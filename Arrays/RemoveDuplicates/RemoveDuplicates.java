@@ -1,3 +1,4 @@
+package Arrays.RemoveDuplicates;
 class Solution {
     public int removeDuplicates(int[] nums) {
         int j=0;

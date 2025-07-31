@@ -1,3 +1,4 @@
+package Arrays.CheckSorted;
 class Solution {
     public boolean check(int[] nums) {
        int count = 0;
