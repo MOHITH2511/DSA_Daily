@@ -10,7 +10,6 @@ Given an integer array `nums` and an integer `target`, return all **unique quadr
 
 `a + b + c + d == target`
 
-
 You may return the answer in **any order**.
 
 ---
