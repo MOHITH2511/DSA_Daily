@@ -83,15 +83,15 @@ class Solution {
 
 - Iterative Binary Search
 
-Time Complexity: O(log n)
+     Time Complexity: O(log n)
 
-Space Complexity: O(1)
+     Space Complexity: O(1)
 
 - Recursive Binary Search
 
-Time Complexity: O(log n)
+     Time Complexity: O(log n)
 
-Space Complexity: O(log n) (due to recursive call stack)
+     Space Complexity: O(log n) (due to recursive call stack)
 
 ### Notes
 
