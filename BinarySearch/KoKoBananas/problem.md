@@ -28,7 +28,7 @@ piles = [3, 6, 7, 11], h = 8
   - Pile 6 → 2 hours  
   - Pile 7 → 2 hours  
   - Pile 11 → 3 hours  
-- Total = 8 hours ✅  
+- Total = 8 hours   
 
 ---
 
@@ -85,7 +85,7 @@ class Solution {
 
 ### Time and Space Complexity
 
-*Time Complexity:*
+#### Time Complexity: ####
 
 - Binary search runs in O(log(max(piles))).
 
@@ -93,7 +93,7 @@ class Solution {
 
 - Overall: O(n · log(max(piles)))
 
-*Space Complexity:*
+#### Space Complexity: ####
 
 - Only a few extra variables are used → O(1)
 
