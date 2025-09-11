@@ -67,7 +67,7 @@ class Solution {
 
 - Only a few extra variables are used → `O(1)`
 
-### Notes
+#### Notes
 
 - A naive solution would check missing numbers one by one in `O(n)`.
 
