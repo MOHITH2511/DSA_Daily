@@ -1,0 +1,21 @@
+/*
+class Node{
+    int data;
+    Node next;
+
+    Node(int x){
+        data = x;
+        next = null;
+    }
+}
+*/
+class Solution {
+    public Node insertAtEnd(Node head, int x) {
+        Node node = new Node(x);
+        if(head == null) return node;
+        Node tptr = head;
+        while(tptr.next != null) tptr = tptr.next;
+        tptr.next = node;
+        return head;
+    }
+}
