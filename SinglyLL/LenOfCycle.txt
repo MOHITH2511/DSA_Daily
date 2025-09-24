@@ -1,0 +1,35 @@
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int x) {
+        data = x;
+        next = null;
+    }
+}
+*/
+
+class Solution {
+    public int lengthOfLoop(Node head) {
+        if(head == null) return 0;
+        Node slow = head;
+        Node fast = head;
+        while(fast.next != null && fast.next.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast) return CountLen(slow);
+        }
+        return 0;
+    }
+    
+    public int CountLen(Node end){
+        int len = 1;
+        Node start = end.next;
+        while(start != end){
+            len++;
+            start =start.next;
+        }
+        return len;
+    }
+}
